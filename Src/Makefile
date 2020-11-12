@@ -1,4 +1,8 @@
-# Quark ver: 0.1e
+# Quark ver: 1.0.0a
+# A = Alpha
+# B = Beta
+# O = Offical
+# Major.Minor.Patch
 
 exec = q.exe # Change this to your executables names
 
