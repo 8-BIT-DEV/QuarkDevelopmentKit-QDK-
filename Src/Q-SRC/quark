@@ -11,7 +11,7 @@
 #define cget(return_val) std::cin >> return_val
 #define dget_chain std::cin >>
 #define qpause _getch()
-#define qchar 1001
+#define qchar [1001]
 
 #define ignore_input ignore_input()
 #define ignore_keyPress ignore_keyPress()
