@@ -1,3 +1,6 @@
+// If you make any changes to not just this file but any file you could send it to me(DuffkaDev@gmail.com) and it may be put into an actual build of Quark
+// Cause my programming S U C Cs and could have some improvements lolmao
+
 #ifndef QSMAIN_H
 #define QSMAIN_H
 
@@ -42,19 +45,24 @@ using std::endl; // Because I hate typing std for endl
     
     class mega {
     public:
-        int i;
-        float f;
-        double d;
-        string s;
-
-        void list(bool new_line_bool = true) {
-            if (new_line_bool == true) {
-                std::cout << i << endl << f << endl << d << endl << s;
-            }
-            else {
-                std::cout << i << f << d << s;
-            }
-        }
+        int Int
+        float Float;
+        double Double;
+        string String;
+    };
+    class mega2 : mega {
+    public:
+        int Int2;
+        float Float2;
+        double Double2;
+        string String2;
+    };
+    class mega3 : mega2 {
+    public:
+        int Int3;
+        float Float3;
+        double Double3;
+        string String3;
     };
 
 #endif
