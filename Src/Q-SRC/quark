@@ -170,9 +170,40 @@ struct CConvert {
             string return_val = std::to_string(num);
             return return_val;
         }
+        float to_float(int num) {
+            float return_val = (float) num;
+            return return_val;
+        }
+        double to_double(int num) {
+            double return_val = (double) num;
+            return return_val;
+        }
+        long to_long(int num) {
+            long return_val = (long) num;
+            return return_val;
+        }
+    };
+    struct CFrom_float {
+        string to_string(float num) {
+            string return_val = std::to_string(num);
+            return return_val;
+        }
+        int to_int(float num) {
+            int return_val = (int) num;
+            return return_val;
+        }
+        double to_double(float num) {
+            double return_val = (double) num;
+            return return_val;
+        }
+        long to_long(float num) {
+            long return_val = (long) num;
+            return return_val;
+        }
     };
     CFrom_string from_string;
     CFrom_int from_int;
+    CFrom_float from_float;
 };
 
 #endif

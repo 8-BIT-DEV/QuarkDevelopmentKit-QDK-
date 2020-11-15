@@ -17,13 +17,17 @@ using std::endl; // Because I hate typing std for endl
 // Single word no () statements
     #define new_line std::cout << endl
 
-// Shit I dont know where to put it/label it
+// Random/unusefull shiz I dont know where to put it/label it.
     #define define_var typedef
 
     typedef std::string string;
     typedef void Module;
 
     #define elif else if
+
+    // Because yes
+    #define True true
+    #define False false
 
     #define addnum(num1, num2, num3) num3 = num1 + num2
     #define subnum(num1, num2, num3) num3 = num1 - num2
@@ -45,7 +49,7 @@ using std::endl; // Because I hate typing std for endl
     
     class mega {
     public:
-        int Int
+        int Int;
         float Float;
         double Double;
         string String;
