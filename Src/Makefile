@@ -1,4 +1,10 @@
-# Quark ver: 0.1e
+# Quark ver: 1.0.0e
+# Version number order: major.minor.patch
+# e = early (Not even pre-alpha)
+# pa = Pre-Alpha
+# a = Alpha
+# b = Beta
+# o = Offical
 
 exec = q.exe # Change this to your executables names
 
