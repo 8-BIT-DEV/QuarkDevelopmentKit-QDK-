@@ -1,0 +1,6 @@
+#include <quark>
+
+on_run {
+    Create_Objects;
+    console.print("Hello World!", true);
+}
